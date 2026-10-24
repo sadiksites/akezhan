@@ -13,3 +13,5 @@ let m=`${t[0]}\n${t[1]}: ${v("n")}\n${t[2]}: ${v("p")}\n${t[3]}: ${v("ch")}`+(v(
 window.open("https://wa.me/77015557665?text="+encodeURIComponent(m),"_blank")};
 const io=new IntersectionObserver(es=>es.forEach(x=>{if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}}),{threshold:.1});document.querySelectorAll(".rv").forEach(e=>io.observe(e));
 
+
+document.querySelectorAll("video").forEach(v=>v.addEventListener("play",()=>document.querySelectorAll("video").forEach(o=>{if(o!==v&&!o.paused)o.pause()})));
