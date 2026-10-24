@@ -70,3 +70,17 @@ footer{background:var(--ink);color:#c3cbd8;padding:30px 0;font-size:.9rem}.fr{di
 .g-slot{border-radius:16px;aspect-ratio:4/3;margin:-8px -8px 18px}
 .gal .slot{border-radius:18px;aspect-ratio:4/3;cursor:zoom-in}
 .lb{position:fixed;inset:0;background:rgba(10,20,35,.9);z-index:99;display:none;place-items:center}.lb.on{display:grid}.lb img{max-width:92vw;max-height:88vh;border-radius:12px}
+.fact.price{background:var(--sun);border-color:var(--sun);color:var(--ink);font-weight:900}
+.reels{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;align-items:start}
+.reel{min-width:0}.reel .instagram-media{min-width:0!important;width:100%!important;max-width:100%!important;margin:0!important;border-radius:18px!important}
+.reel-ph{aspect-ratio:9/16;border-radius:20px;background:linear-gradient(160deg,#d6f0ef,#ffe3d8);display:grid;place-items:center;color:rgba(29,53,87,.5);font-weight:800;text-decoration:none}
+.reel-ph .pl{display:flex;flex-direction:column;align-items:center;gap:10px}
+.reel-ph .pb{width:64px;height:64px;border-radius:50%;background:#fff;display:grid;place-items:center;box-shadow:0 10px 24px -10px rgba(0,0,0,.3)}
+.btn-ig{background:linear-gradient(45deg,#f58529,#dd2a7b,#8134af);color:#fff}
+@media (max-width:900px){.reels{grid-template-columns:1fr;max-width:420px;margin:0 auto}}
+@media (max-width:900px){.reels{display:flex;max-width:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;padding-bottom:8px;margin:0 -22px;padding-left:22px;padding-right:22px}.reels>*{flex:0 0 78%;scroll-snap-align:center}}
+.teach{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.tc{background:#fff;border:1px solid var(--line);border-radius:var(--r);padding:14px;text-align:center;display:flex;flex-direction:column;gap:4px}.t-slot{aspect-ratio:1/1;border-radius:16px;margin-bottom:10px}.tc small{opacity:.65}
+.vids{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.vslot{aspect-ratio:9/16;max-height:520px;border-radius:var(--r);background:linear-gradient(160deg,#0e7c7b,#e76f51);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:10px;color:#fff;font-weight:800;text-decoration:none}
+.vids .instagram-media{min-width:0!important;width:100%!important;margin:0!important}
+.btn-ig{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888);color:#fff}.fact.price{background:#ffb703;color:#1d3557}
+@media (max-width:900px){.teach{grid-template-columns:1fr 1fr}.vids{grid-template-columns:1fr;max-width:340px;margin:0 auto}}
