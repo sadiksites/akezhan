@@ -76,3 +76,4 @@ footer{background:var(--ink);color:#c3cbd8;padding:30px 0;font-size:.9rem}.fr{di
 .btn-ig{background:linear-gradient(45deg,#f09433,#dc2743,#bc1888);color:#fff}.fact.price{background:#ffb703;color:#1d3557}
 @media (max-width:900px){.teach{grid-template-columns:1fr 1fr}.vids{grid-template-columns:1fr;max-width:340px;margin:0 auto}}
 .vids{align-items:start}.vwrap{min-width:0}.vwrap blockquote.instagram-media{background:#fff;border-radius:var(--r);padding:20px;text-align:center}
+.vwrap video{width:100%;aspect-ratio:9/16;object-fit:cover;background:#000;border-radius:var(--r);display:block}.vig{display:inline-block;margin-top:8px;font-size:.85rem;font-weight:700;color:#bc1888}.vwrap{text-align:center}
