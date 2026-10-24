@@ -62,7 +62,7 @@ footer{background:var(--ink);color:#c3cbd8;padding:30px 0;font-size:.9rem}.fr{di
 .slot{position:relative;overflow:hidden;background:linear-gradient(135deg,#d6f0ef,#fff0c7);display:grid;place-items:center;color:rgba(29,53,87,.5);font-weight:800;font-size:.8rem}
 .slot:nth-of-type(3n+2){background:linear-gradient(135deg,#ffe3d8,#fff6d6)}.slot:nth-of-type(3n){background:linear-gradient(135deg,#dbeafe,#d8f3dc)}
 .slot .pl{display:flex;flex-direction:column;align-items:center;gap:6px}.slot .pl svg{opacity:.55}
-.slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.slot img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:var(--op,center)}
 .hero-slot{border-radius:32px;aspect-ratio:1/.9;box-shadow:0 30px 60px -30px rgba(14,124,123,.5)}
 .about-slot{border-radius:var(--r);aspect-ratio:16/10;margin-bottom:22px}
 .dir-slot{width:84px;height:84px;border-radius:50%;flex:none;border:3px solid rgba(255,255,255,.5)}
